@@ -1,1 +1,2 @@
-import 'bootstrap';
+import 'admin-lte';
+import '../scss/app.scss';
