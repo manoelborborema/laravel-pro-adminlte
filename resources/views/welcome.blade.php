@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <!--begin::Head-->
     @vite('resources/scss/app.scss')
   <head>
@@ -1220,7 +1220,7 @@
     <!--end::Required Plugin(Bootstrap 5)--><!--begin::Required Plugin(AdminLTE)-->
     <script src="./js/adminlte.js"></script>
     <!--end::Required Plugin(AdminLTE)--><!--begin::OverlayScrollbars Configure-->
-    <script>
+    <!-- <script>
       const SELECTOR_SIDEBAR_WRAPPER = '.sidebar-wrapper';
       const Default = {
         scrollbarTheme: 'os-theme-light',
@@ -1239,9 +1239,9 @@
           });
         }
       });
-    </script>
+    </script> -->
     <!--end::OverlayScrollbars Configure--><!-- Image path runtime fix -->
-    <script>
+    <!-- <script>
       document.addEventListener('DOMContentLoaded', () => {
         // Find the link tag for the main AdminLTE CSS file.
         const cssLink = document.querySelector('link[href*="css/adminlte.css"]');
@@ -1264,15 +1264,15 @@
           }
         });
       });
-    </script>
+    </script> -->
     <!-- OPTIONAL SCRIPTS -->
     <!-- sortablejs -->
-    <script
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <!-- sortablejs -->
-    <script>
+    <!-- <script>
       new Sortable(document.querySelector('.connectedSortable'), {
         group: 'shared',
         handle: '.card-header',
@@ -1282,15 +1282,15 @@
       cardHeaders.forEach((cardHeader) => {
         cardHeader.style.cursor = 'move';
       });
-    </script>
+    </script> -->
     <!-- apexcharts -->
-    <script
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.min.js"
       integrity="sha256-+vh8GkaU7C9/wbSLIcwq82tQ2wTf44aOHA8HlBMwRI8="
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <!-- ChartJS -->
-    <script>
+    <!-- <script>
       // NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
       // IT'S ALL JUST JUNK FOR DEMO
       // ++++++++++++++++++++++++++++++++++++++++++
@@ -1347,7 +1347,7 @@
         sales_chart_options,
       );
       sales_chart.render();
-    </script>
+    </script> -->
     <!-- jsvectormap -->
     <script
       src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/js/jsvectormap.min.js"
