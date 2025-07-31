@@ -110,8 +110,8 @@
                   <!--begin::Message-->
                   <div class="d-flex">
                     <div class="flex-shrink-0">
-                      <img
-                        src="/assets/img/user1-128x128.jpg"
+                      hvhvhv<img
+                        src="{{ Vite::asset('resources/images/user1-128x128.jpg') }}"
                         alt="User Avatar"
                         class="img-size-50 rounded-circle me-3"
                       />
@@ -137,7 +137,7 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <img
-                        src="/assets/img/user8-128x128.jpg"
+                        src="{{ Vite::asset('resources/images/user8-128x128.jpg') }}"
                         alt="User Avatar"
                         class="img-size-50 rounded-circle me-3"
                       />
@@ -163,7 +163,7 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <img
-                        src="/assets/img/user3-128x128.jpg"
+                        src="{{ Vite::asset('resources/images/user3-128x128.jpg') }}"
                         alt="User Avatar"
                         class="img-size-50 rounded-circle me-3"
                       />
@@ -228,7 +228,7 @@
             <li class="nav-item dropdown user-menu">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                 <img
-                  src="/assets/img/user2-160x160.jpg"
+                  src="{{ Vite::asset('resources/images/user2-160x160.jpg') }}"
                   class="user-image rounded-circle shadow"
                   alt="User Image"
                 />
@@ -238,7 +238,7 @@
                 <!--begin::User Image-->
                 <li class="user-header text-bg-primary">
                   <img
-                    src="/assets/img/user2-160x160.jpg"
+                    src="{{ Vite::asset('resources/images/user2-160x160.jpg') }}"
                     class="rounded-circle shadow"
                     alt="User Image"
                   />
@@ -282,7 +282,7 @@
           <a href="./index.html" class="brand-link">
             <!--begin::Brand Image-->
             <img
-              src="/assets/img/AdminLTELogo.png"
+              src="{{ Vite::asset('resources/images/AdminLTELogo.png') }}"
               alt="AdminLTE Logo"
               class="brand-image opacity-75 shadow"
             />
@@ -937,7 +937,7 @@
                         <!-- /.direct-chat-infos -->
                         <img
                           class="direct-chat-img"
-                          src="/assets/img/user1-128x128.jpg"
+                          src="{{ Vite::asset('resources/images/user1-128x128.jpg') }}"
                           alt="message user image"
                         />
                         <!-- /.direct-chat-img -->
@@ -956,7 +956,7 @@
                         <!-- /.direct-chat-infos -->
                         <img
                           class="direct-chat-img"
-                          src="/assets/img/user3-128x128.jpg"
+                          src="{{ Vite::asset('resources/images/user3-128x128.jpg') }}"
                           alt="message user image"
                         />
                         <!-- /.direct-chat-img -->
@@ -973,7 +973,7 @@
                         <!-- /.direct-chat-infos -->
                         <img
                           class="direct-chat-img"
-                          src="/assets/img/user1-128x128.jpg"
+                          src="{{ Vite::asset('resources/images/user1-128x128.jpg') }}"
                           alt="message user image"
                         />
                         <!-- /.direct-chat-img -->
@@ -992,7 +992,7 @@
                         <!-- /.direct-chat-infos -->
                         <img
                           class="direct-chat-img"
-                          src="/assets/img/user3-128x128.jpg"
+                          src="{{ Vite::asset('resources/images/user3-128x128.jpg') }}"
                           alt="message user image"
                         />
                         <!-- /.direct-chat-img -->
@@ -1009,7 +1009,7 @@
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="/assets/img/user1-128x128.jpg"
+                              src="{{ Vite::asset('resources/images/user1-128x128.jpg') }}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
@@ -1027,7 +1027,7 @@
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="/assets/img/user7-128x128.jpg"
+                              src="{{ Vite::asset('resources/images/user7-128x128.jpg') }}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
@@ -1045,7 +1045,7 @@
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="/assets/img/user3-128x128.jpg"
+                              src="{{ Vite::asset('resources/images/user3-128x128.jpg') }}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
@@ -1063,7 +1063,7 @@
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="/assets/img/user5-128x128.jpg"
+                              src="{{ Vite::asset('resources/images/user5-128x128.jpg') }}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
@@ -1081,7 +1081,7 @@
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="/assets/img/user6-128x128.jpg"
+                              src="{{ Vite::asset('resources/images/user6-128x128.jpg') }}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
@@ -1099,7 +1099,7 @@
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="/assets/img/user8-128x128.jpg"
+                              src="{{ Vite::asset('resources/images/user8-128x128.jpg') }}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
